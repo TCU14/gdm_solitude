@@ -1,5 +1,5 @@
-## Solitude theme for GDM
-A simple GDM theme based on the default gdm theme.
+## Solitude theme for GDM/Gnome Shell
+A simple GDM/Shell theme based on the default gnome-shell theme.
 
 
 ## Install instructions: 
@@ -11,5 +11,5 @@ A simple GDM theme based on the default gdm theme.
 By default, Solitude uses a shade of red as its accent color. To change the accent color, do the following:
 
 1. Find the hex color code of the new accent color you wish to use. Open gnome-shell.css and find/replace every instance with the hex code of #820000 with the new color you have chosen.
-2. Find the rgba color code of the new accent color you wish to use, open gnome-shell.css and find/replace every instance of rgba((130, 0, 0, 1) and replace it with the rgba color code of the new accent color.
+2. Find the rgba color code of the new accent color you wish to use, open gnome-shell.css and find/replace every instance of rgba(130, 0, 0, 1) and replace it with the rgba color code of the new accent color.
 3. Recompile gnome-shell-theme.gresource and install it, restart the GDM service.
